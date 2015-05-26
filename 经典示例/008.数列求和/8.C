@@ -9,7 +9,8 @@ main()
 	if(n<1)
 	{
 		printf("The n must no less than 1!\n");
-		return;
+		scanf("%d",&n); //继续读入下一个数字
+		//return;
 	}
 
 	for(i=1;i<=n;i++)
@@ -17,7 +18,7 @@ main()
 		temp=0;
 		for(j=1;j<=i;j++)
 			temp+=j;
-		sum+=temp;
+		sum+=temp;/* 搞不懂这是什么设计目的*/
 	}
 	printf("The sum of the sequence(%d) is %d\n",n,sum);
 	getchar();
