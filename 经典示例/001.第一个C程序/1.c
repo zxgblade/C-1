@@ -1,6 +1,14 @@
 /* The first C programme */
-#include <stdio.h>				/* °üº¬±ê×¼ÊäÈëÊä³öÍ·ÎÄ¼ş */
-main()						/* Ö÷º¯Êı */
+#include <stdio.h>	
+/* åŒ…å«æ ‡å‡†è¾“å…¥è¾“å‡ºå¤´æ–‡ä»¶ */
+/*
+main()						/* ä¸»å‡½æ•° */
 {
-		printf("Hello World!\n");	/* ´òÓ¡Êä³öĞÅÏ¢ */
+		printf("Hello World!\n");	/* æ‰“å°è¾“å‡ºä¿¡æ¯ */
+}
+*/
+//è¿™æ˜¯æ¯”è¾ƒæµè¡Œçš„å†™æ³•ï¼Œæ­£ç¡®çš„å†™æ³•åº”è¯¥æ˜¯
+int main(void)
+{
+	printf("Hello,world!\n");
 }
